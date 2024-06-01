@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("TTT.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    background-color: lightcyan;
+    color: rgb(41, 32, 105);
+}
+.O{
+    color: rgb(217, 12, 244);
+}
+.X{
+    color: rgb(133, 14, 231);
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: cornsilk;
+    color: black;
+    border-radius: 1rem;
+    border: none;
+}
+#new{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: cornsilk;
+    color: black;
+    border-radius: 1rem;
+    border: none;
+}
+#msg{
+    color: white;
+    font-size: 5vmin;
+}
+.msgContainer{
+    height: 100vmin;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+} 
+h1{
+    color: white;
+}
